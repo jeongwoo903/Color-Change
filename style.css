@@ -1,0 +1,27 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1em 1em;
+  width: 45vw;
+  height: 4vw;
+  padding: 1em;
+  border-radius: 1em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 5px 5px 5px rgb(165, 165, 165);
+}
+
+div {
+  background-color: #283683;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px rgb(165, 165, 165);
+}
